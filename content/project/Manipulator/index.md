@@ -1,6 +1,6 @@
 ---
 title: Manipulator
-summary: A MoveIt! based Manipulator and 6 DoF Pose Estimation Algorithm.
+summary: A MoveIt! based Manipulator and 6 DoF Pose Estimation Algorithm. Click Video to see the Demo.
 tags:
 - Manipulator
 date: "2021-07-15T00:00:00Z"
@@ -36,4 +36,4 @@ slides: example
 
 TigerArm, a manipulator mainly developed by me, is also based on MoveIt!. In the perception part, RealSense D435i depth camera was
 used, PCL point cloud library and deep learning algorithm Yolov3 were used too. For details, please
-see my Github repository(https://github.com/cypypccpy/21_tigerarm_ros). Originally, this mechanical arm was developed to serve the RoboMaster competition.
+see my Github repository(https://github.com/cypypccpy/21_tigerarm_ros). Originally, this mechanical arm was developed to serve the RoboMaster competition. **Click Video to see the Demo.** 

@@ -1,6 +1,6 @@
 ---
 title: AGV
-summary: Improved Localization system of Automated Guided Vehicle.
+summary: Improved Localization system of Automated Guided Vehicle. Click Video to see the Demo.
 tags:
 - AGV
 date: "2021-07-15T00:00:00Z"
@@ -11,6 +11,13 @@ external_link: ""
 # image:
 #   caption: Photo by rawpixel on Unsplash
 #   focal_point: Smart
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+image:
+  caption: 'Image credit: [**Unsplash**](uploads/AGV_Demo.mp4)'
+  focal_point: ""
+  preview_only: false
 
 links:
 # - icon: twitter
@@ -33,10 +40,10 @@ url_video: "uploads/AGV_Demo.mp4"
 #   Otherwise, set `slides = ""`.
 slides: example
 ---
-
 This project is an upgrade of the AGV localization system for the ICRA 2021 DJI RoboMaster
 AI Challenge. After realizing a Lidar based navigation using ROS Navigation Stack, I found that
 AMCL algorithm for localization have a low accuracy. Therefore, I separated the pure localization
 module of a SLAM algorithm, Cartographer, used it for localization and published odom and pose
-topic for navigation in ROS, greatly improving the accuracy.
+topic for navigation in ROS, greatly improving the accuracy. 
+**Click Video to see the Demo.** 
 

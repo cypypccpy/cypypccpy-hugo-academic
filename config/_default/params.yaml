@@ -20,15 +20,15 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: 201930090264@mail.scut.edu.cn
+phone: +86 15220822087
 address:
-  street: 450 Serra Mall
-  city: Stanford
+  street: WuShang street
+  city: GuangDong
   region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
+  postcode: '512300'
+  country: China
+  country_code: CN
 coordinates:
   latitude: '37.4275'
   longitude: '-122.1697'
