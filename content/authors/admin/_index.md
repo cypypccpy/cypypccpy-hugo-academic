@@ -19,10 +19,10 @@ bio: My research interests include Robotics, 3D perception, Reinforcement Learni
 # Interests to show in About widget
 interests:
 - Robotics
-- 3D perception
-- SLAM
+- Imitation Learning
 - Reinforcement Learning
-- Navigation
+- Sim-to-Real Transfer
+- SLAM
 
 # Education to show in About widget
 education:
@@ -66,6 +66,6 @@ email: "201930090264@mail.scut.edu.cn"
 highlight_name: true
 ---
 
-YuanPei Chen is a junior of Intelligence Construction at the South China University of Technology. His research interests include Robotics, 3D perception, Reinforcement Learning and SLAM. He is a member of the SCUT Robotic Laboratory, which develops automatic robots, systems of the manipulation, and robotics perception.
+YuanPei Chen is a junior of Intelligence Construction at the South China University of Technology. His research interests include Robotics, Imitation Learning, Reinforcement Learning and Sim-to-Real Transfer. He is a member of the SCUT Robotic Laboratory, which develops automatic robots, systems of the manipulation, and robotics perception.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Curricula_Vitae.pdf" "newtab" >}}CV{{< /staticref >}}.

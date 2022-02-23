@@ -27,10 +27,6 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Manipulator
-    tag: Manipulator
-  - name: AGV
-    tag: AGV
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
