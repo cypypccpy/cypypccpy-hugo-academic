@@ -1,6 +1,6 @@
 ---
 # Display name
-title: YuanPei Chen
+title: Yuanpei Chen
 
 # Is this the primary user of the site?
 superuser: true
@@ -14,7 +14,7 @@ organizations:
   url: https://www.scut.edu.cn/new/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Robotics, 3D perception, Reinforcement Learning and SLAM.
+bio: My research interests include Robotics, Imitation Learning, Reinforcement Learning and Meta Learning.
 
 # Interests to show in About widget
 interests:
@@ -22,7 +22,7 @@ interests:
 - Imitation Learning
 - Reinforcement Learning
 - Sim-to-Real Transfer
-- SLAM
+- Meta Learning
 
 # Education to show in About widget
 education:
@@ -66,6 +66,6 @@ email: "201930090264@mail.scut.edu.cn"
 highlight_name: true
 ---
 
-YuanPei Chen is a junior of Intelligence Construction at the South China University of Technology. His research interests include Robotics, Imitation Learning, Reinforcement Learning and Sim-to-Real Transfer. He is a member of the SCUT Robotic Laboratory, which develops automatic robots, systems of the manipulation, and robotics perception.
+I am a 3-year undergraduate student supervised by **Prof. Chengguang Yang** at South China University of University. Recently I worked as a research assistant in Peking University Multi Agent Reinforcement Learning Group (**PKU-MARL**) supervised by **Prof. Yaodong Yang**. Besides, I am a member of the **SCUT RobotLab Vision Group**, participate in competitions like RoboMaster, ICRA AI Challenge, etc. My research interests include Robotics, Reinforcement Learning, Imitation Learning, Sim-to-Real Transfer and Meta Learning.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Curricula_Vitae.pdf" "newtab" >}}CV{{< /staticref >}}.
