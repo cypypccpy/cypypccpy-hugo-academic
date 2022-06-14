@@ -9,7 +9,7 @@ authors:
 - Chao Zeng
 - Zhiping Wang
 - Peng Lu
-- Chenguang Yang
+- Chengguang Yang
 
 # Author notes (optional)
 # author_notes:
@@ -29,7 +29,7 @@ doi: ""
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *2022 International Conference on Advanced Robotics and Mechatronics (ICARM)*
+publication: In *International Conference on Advanced Robotics and Mechatronics (ICARM), 2022, Accepted*
 # publication_short: In *ICW*
 
 abstract: In the field of robot reinforcement learning, the reality gap has always been a problem that restricts the robustness and generalization of algorithms. We propose Simulation Twin (SimTwin) &#58 a deep reinforcement learning framework that can help directly transfer the model from simulation to reality without any real-world training. Simulation Twin consists of a reinforcement learning module and an adaptive correct module. We train the policy using the soft actor-critic algorithm only in a simulator with demonstration and domain randomization. In the adaptive correct module, we design and train a neural network to simulate the human error correction process using force feedback. Subsequently, we combine the above two modules through digital twin to control real-world robots, correct simulator parameters by comparing the difference between simulator and reality automatically, then generalize the correct action through the trained policy network without additional training. We demonstrate the proposed method in an open cabinet task, the experiments show that our framework can reduce the reality gap without any real-world training.

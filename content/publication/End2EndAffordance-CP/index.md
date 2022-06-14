@@ -32,7 +32,7 @@ doi: ""
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Under review*
+publication: In *Conference on Neural Information Processing Systems (NeurIPS), 2022, Under Review*
 # publication_short: In *ICW*
 
 abstract: Learning to manipulate 3D articulated objects in an interactive environment has been challenging in reinforcement learning (RL) studies. It is hard to train a policy that can generalize over different objects with vast semantic categories, diverse shape geometry, and versatile functionality. Visual affordance provides object-centric information priors that offer actionable semantics for objects with movable parts. For example, an effective policy should know the pulling force on the handle to open a door. Nevertheless, how to learn affordance in an end-to-end fashion within the RL process is unknown. In this study, we fill such a research gap by designing algorithms that can automatically learn affordance semantics through a contact prediction process. The contact predictor allows the agent to learn the affordance information (i.e., where to act for the robot arm on the object) from previous manipulation experience, and such affordance semantics then helps the agent learn effective policies through RL updates. We use our framework on several downstream tasks. The experimental result and analysis demonstrate the effectiveness of end-to-end affordance learning.
