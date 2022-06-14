@@ -66,6 +66,6 @@ email: "201930090264@mail.scut.edu.cn"
 highlight_name: true
 ---
 
-I am a 3-year undergraduate student supervised by **Prof. Chengguang Yang** at South China University of University. Recently I worked as a research assistant in Peking University Multi Agent Reinforcement Learning Group (**PKU-MARL**) supervised by **Prof. Yaodong Yang**. Besides, I am a member of the **SCUT RobotLab Vision Group**, participate in competitions like RoboMaster, ICRA AI Challenge, etc. My research interests include Robotics, Reinforcement Learning, Imitation Learning, Sim-to-Real Transfer and Meta Learning.
+I am a three-year undergraduate student supervised by **Prof. Chengguang Yang** at South China University of University. Recently I worked as a research assistant in Peking University Multi Agent Reinforcement Learning Group (**PKU-MARL**) supervised by **Prof. Yaodong Yang**. Besides, I am a member of the **SCUT RobotLab Vision Group**, participate in competitions like RoboMaster, ICRA AI Challenge, etc. My research interests include Robotics, Reinforcement Learning, Imitation Learning, Sim-to-Real Transfer and Meta Learning.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Curricula_Vitae.pdf" "newtab" >}}CV{{< /staticref >}}.

@@ -1,7 +1,7 @@
 ---
 # An instance of the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: pages
+widget: featured
 
 # This file represents a page section.
 headless: true
@@ -9,12 +9,12 @@ headless: true
 # Order that this section appears on the page.
 weight: 90
 
-title: "Publications"
+title: Recent Publications
 subtitle: ''
 
 content:
   # Filter on criteria
-  page_type: "publication"
+  page_type: publication
   filters:
     folders:
       - publication
@@ -33,6 +33,10 @@ content:
   order: desc
 design:
   # Choose a view for the listings:
-  view: citation
+  view: 4
   columns: '2'
 ---
+
+{{% callout note %}}
+Quickly discover relevant content by [filtering publications](./publication/).
+{{% /callout %}}

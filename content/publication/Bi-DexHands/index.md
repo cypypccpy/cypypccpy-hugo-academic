@@ -5,18 +5,23 @@ title: "Bi-DexHands: A Benchmark for Learning Bimanual Dexterous Manipulation"
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Yuanpei Chen
-- Chao Zeng
-- Zhiping Wang
-- Peng Lu
-- Chenguang Yang
+- admin
+- Yaodong Yang
+- Tianhao Wu
+- Shengjie Wang
+- Xidong Feng
+- Jiechuang Jiang
+- Stephen Marcus McAleer
+- Hao Dong
+- Zongqing Lu
+- Song-chun Zhu
 
 # Author notes (optional)
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2022-02-23"
+date: "2022-05-10"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -29,15 +34,15 @@ doi: ""
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-# publication: In *Wowchemy Conference*
+publication: In *Under review*
 # publication_short: In *ICW*
 
-abstract: Owing to hand dexterity and bimanual coordination, bimanual dexterous manipulation remains a challenging problem for traditional robotic control methods. To reduce the reliance on complex modeling and manual parameter-tuning, reinforcement learning (RL) provides a model-agnostic approach for in-hand manipulation. Despite the remarkable success in the single-hand setting, there has not been enough evidence to illustrate the efficient performance in dual-hand manipulation. Therefore, in this paper, we proposed a bimanual dexterous manipulation benchmark, Bi-DexHands, with diverse scenarios for single-agent and multi-agent reinforcement learning algorithms. Thanks to GPU accelerating simulations on the Isaac Gym, experiments demonstrate that SOTA continuous model-free RL/Multi-Agent RL methods can achieve a comprehensive performance on our proposed tasks. Furthermore, Introducing a large number of tasks and target objects enables two hands to learn general skills according to metal or multi-task reinforcement learning algorithms. We open-sourced this benchmark and implemented a series of reinforcement learning algorithms at https://github.com/xxx.
+abstract: Achieving human-level dexterity is an important open problem in robotics. However, tasks of dexterous hand manipulation even at the baby level are challenging to solve through reinforcement learning (RL). The difficulty lies in the high degrees of freedom and the required cooperation among heterogeneous agents (e.g., joints of fingers). In this study, we propose the Bimanual Dexterous Hands Benchmark (Bi-DexHands), a simulator that involves two dexterous hands with tens of bimanual manipulation tasks and thousands of target objects. Tasks in Bi-DexHands are first designed to match human-level motor skills according to literature in cognitive science, and then are built in Issac Gym; this enables highly efficient RL trainings, reaching 30,000+ FPS by only one single NVIDIA RTX 3090. We provide a comprehensive benchmark for popular RL algorithms under different settings; this includes multi-agent RL, offline RL, multi-task RL, and meta RL. Our results show that PPO type on-policy algorithms can learn to solve simple manipulation tasks that are equivalent up to 48-month human baby (e.g., catching a flying object, opening a bottle), while multi-agent RL can further help to learn manipulations that require skilled bimanual cooperation (e.g., lifting a pot, stacking blocks). Despite the success on each individual task, when it comes to mastering multiple manipulation skills, existing RL algorithms fail to work in most of the multi-task and the few-shot learning tasks, which calls for more future development from the RL community. Our project is open-sourced at https://github.com/PKU-MARL/DexterousHands.
 
 # Summary. An optional shortened abstract.
-summary: We propose Simulation Twin (SimTwin) &#58 a deep reinforcement learning framework that can help directly transfer the model from simulation to reality without any real-world training.
+summary: We propose a bimanual dexterous manipulation benchmark according to literature from cognitive science for comprehensive reinforcement learning research.
 
-tags: [Sim2Real, Reinforcement Learning]
+tags: [Multi-Agent RL, Robotics, Reinforcement Learning]
 
 # Display this page in the Featured widget?
 featured: true
@@ -47,21 +52,21 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'uploads/IIII.pdf'
+url_pdf: 'uploads/bi-dexhands_arxiv.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: 'uploads/simtwin_cut.mp4'
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'An overview of SimTwin'
-  focal_point: "Center"
-  preview_only: false
+# image:
+#   caption: 'An overview of Bi-DexHands'
+#   focal_point: "Center"
+#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
